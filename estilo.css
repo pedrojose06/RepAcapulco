@@ -5,14 +5,18 @@
 body, html{
     width: 100%;
     height: 100%;
-    background-image: url(photo_40005_20150814.jpg);
+
 }
 .inicio{
-    height: 100vh;
-    background-color: #eedd11;
+    height: 30vh;
+    background-image: url(photo_40005_20150814.jpg);
 }
 .meio{
+
+    position: sticky;
+    top: 0px;
     height: 60vh;
+    background-color: aquamarine;
 }
 .fim{
     height: 80vh;
